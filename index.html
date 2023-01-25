@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+    <!-- Primary Meta Tags -->
+    <title></title>
+    <meta name="title" content="">
+    <meta name="description" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shaj.github.io/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://shaj.github.io/">
+    <meta property="twitter:title" content="">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="">
+</head>
+
+<body>
+
+    <header>
+        <audio src="./audio/amorfoda.mp3" id="myaudio"></audio>
+        <h1 id="titulo"> ¿Cuantas veces te han dejado?</h1>
+    </header>
+
+    <section class="container contador">
+
+        <div class="num__contador">
+            <p class="texto">Te han dejado </p>
+            <input class="input" type="text" value="0" readonly id="counter">
+            <p class="texto">veces </p>
+        </div>
+        <div class="plus_minus">
+            <div class="boton boton_sumar"><img src="./img/plus.svg" alt="" id="plus"></div>
+
+            <div class="boton boton_restar"><img src="./img/minus.svg" alt="" id="minus"></div>
+        </div>
+
+        <button id="play_pause">Play?</button>
+
+    </section>
+    <script src="./js/contador.js"></script>
+    <script src="./js/audio_play.js"></script>
+</body>
+
+</html>
